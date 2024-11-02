@@ -1,0 +1,24 @@
+Story of finding:
+I was using a telegram app as usual, just chatting with my friend. Then I send an audio and he reacted with a set of 3 emojis. After that I reacted with one different emoji and the bug appeared. 
+
+Summary:
+There is a UI shift in audio message when using multiple emojis.
+
+Steps to reproduce:
+1.Open chat with any person that have telegram premium.
+2.Send an audio message to that person.
+3.Let that person react with any 3 emojis under that audio message (e.g. 🌭 😁 🙏)
+4.React with any emoji under the same audio message (e.g. 💯)
+5.Bug appeared.
+
+Actual Result:
+The last reacted emoji extends beyond the UI boundaries of the audio message.
+
+Expected result:
+The last reacted emoji stays in the boundaries of UI message.
+
+Reproduction:
+Stable
+
+Environment:
+Android 12 SKQ1.211006.001, Xiaomi POCO X3 pro, app version 11.3.1
