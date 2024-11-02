@@ -1,0 +1,27 @@
+Story of finding:
+I was using a google chat as usual when this bug appeared.
+
+Summary:
+There is an extension of the text beyond the screen when opening a calendar event.
+
+Steps to reproduce:
+1.Open https://mail.google.com/chat
+2.Open a chat with any person.
+3.Ask that person to arrange a meeting in the calendar.
+4.Click on the google calendar logo at the upper-right corner, right under your avatar.
+5.Click on that arranged meeting.
+6.Bug appears in the details of the meeting.
+
+Actual Result:
+In the details of the arranged meeting the right part of the text is cut and not fully readable.
+
+Expected result:
+The text is fully visible and readable for the user.
+
+Reproduction:
+Stable
+
+Environment:
+OS: Windows 11 Home. Ver: 23H2.
+
+Browser: Google Chrome 130.0.6723.59 (Official Build) (64-bit)
